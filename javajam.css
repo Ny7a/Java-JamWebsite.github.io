@@ -225,3 +225,30 @@ img {
     display: none;
   }
 }
+/* table.center {
+  width: 90%;
+  border-spacing: 0;
+  background-color: #ffffcc;
+} */
+
+table {
+  width: 90%;
+  margin: auto;
+  border-spacing: 0;
+  background-color: #ffffcc;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #d2b48e;
+}
+
+/* .details { padding-left: 20%;
+     padding-right: 20%; 
+     overflow: auto; }
+
+img { border: 0; } */

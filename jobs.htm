@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title> JavaJam Cofeehouse Jobs</title>
-		<!-- <link rel="stylesheet" href="javajam.css"> -->
 
-	</head>
-	<body>
-<h1>Jobs</h1>
-    <b><a href="jj8.htm">Home</a></b>&nbsp;	
-    <b><a href="menu.htm"> Menu</a></b>&nbsp;	
-    <b><a href="music.htm">Music</a></b>&nbsp;	
-    <b><a href="jobs.htm">Jobs</a></b>&nbsp;
-   
-	</body>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- <meta charset="utf-8" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers at JavaJam Coffee House</title>
+    <link rel="stylesheet" href="javajam.css">
+
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House</h1>
+
+        </header>
+    <nav>
+            <ul>
+        <li><a href="jj9.htm">Home</a></li>
+        <li><a href="menu.htm"> Menu</a></li>	
+        <li><a href="music.htm">Music</a></li>
+        <li><a href="jobs.htm">Jobs</a></li>
+    </ul>
+    </nav>
+    <main>
+<div id="herojobs"></div>
+    <h2>Jobs at JavaJam</h2>
+   <p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk (*). </p>
+	   <form action="https://webdevbasics.net/scripts/javajam8.php" method="POST">
+			<label for="myName">*Name:</label>
+			<input type="text" name="myName" id="myName" required>
+			<label for="myEmail">*Email:</label>
+			<input type="email" name="myEmail" id="myEmail" required>
+			<label for="myExperience">*Experience:</label>
+			<textarea name="myExperience" id="myExperience" rows="2" cols="20"></textarea>
+			<input type="submit" name="mySubmit" value="Apply Now" required>
+		</form>
+
+			
+
+</main>
+<footer>Copyright 2018 JavaJam Coffee House<br>
+<a href = "mailto: nya.deng@acd.ccac.edu">nya.deng@acd.ccac.edu</a></footer>
+
+
+
+</body>
 </html>

@@ -276,19 +276,3 @@ textarea {
   height: 250px;
   background-size: 100% 100%;
 }
-
-.item {
-  background-color: #faf9f7;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  margin-right: 3em;
-  margin-left: 3em;
-  width: 80%;
-  padding: 1em;
-  overflow: auto;
-}
-#hercouch {
-  height: 250px;
-  background-image: url(herocouch.jpg);
-  background-size: 100% 100%;
-}
